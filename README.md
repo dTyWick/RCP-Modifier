@@ -7,8 +7,7 @@ One should create an anaconda environment based off of *environment.yml*, with t
 ```
 conda env create -f environment.yml
 ```
-
-Now, pymagicc runs off of a compiled Windows binary, so if you are on Linux or OS X, go to the [pymaggic github page](https://github.com/openscm/pymagicc) in order to learn how to run it. This process involves installing wine,a compatability layer between Windows and Linux/OS X.
+where the yml file has been provided in the repository. Now, pymagicc runs off of a compiled Windows binary, so if you are on Linux or OS X, go to the [pymaggic github page](https://github.com/openscm/pymagicc) in order to learn how to run it. This process involves installing wine,a compatability layer between Windows and Linux/OS X.
 
 Once this is done, one can simply run
 
