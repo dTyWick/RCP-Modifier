@@ -33,11 +33,7 @@ def modify_scenario(scenario, r_factors, target_years):
     {World|R5LAM, 'World|R5MAF', 'World|R5ASIA', 'World|R5REF', 'World|R5OECD'}    
     
     Returns:
-    - modified_scenario: The modified MAGICCData scenario -> AFTER ran through pymagicc.
-    - original_scenario: The original RCP scenario -> AFTER ran through pymagicc
-    - scen_t: The original RCP scenario -> BEFORE ran through pymagicc
-    - new_run: The modified RCP scenario -> BEFORE ran through pymagicc
-    -
+    - modified_scenario: The modified MAGICCData scenario
 
     """
 
@@ -152,5 +148,4 @@ def modify_scenario(scenario, r_factors, target_years):
     modified_scenario = pm.run(new_run)
     
 
-    # return modified scenario BEFORE it was ran through pymagicc
     return(modified_scenario)
